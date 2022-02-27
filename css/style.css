@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+
+.text-white{
+    color: #fff !important;
+}
+
+#main{
+
+}
+
+#header{
+    height: 72px;
+    background-color: #e4e4e5;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav{
+    display:inline-block;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height:72px;
+    padding: 0 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+#nav li:hover a{
+    background-color: coral;
+}
+
+.search__btn{
+    float: right;
+}
+
+#header .search__icon{
+    color: #000;
+    font-size: 30px;
+    line-height: 72px;
+    padding: 0 20px;
+}
+
+#header .search__icon:hover{
+    background-color: coral;
+}
+
+
+#slider{
+    position: relative;
+
+    margin-top: 72px;
+
+    padding-top: 50%;
+
+    background-image: url(../img/sea.jpg);
+    background-position: top center;
+    background-size: cover; /*cover: 100% 100%* img full destop*/ 
+    background-repeat: no-repeat;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    width: 100%;
+}
+
+#slider .text-heading{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#slider .text-heading,
+#slider .text-description{
+    text-align:center;
+}
+
+#slider .text-description{
+    margin-top: 20px;
+}
+
+
+#content{
+    
+}
+
+#content .content-section{
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#content .section-subheading{
+    font-size: 15px;
+    margin-top: 25px;
+    color:rgb(99, 96, 96);
+    font-style: italic;
+}
+#content .section-heading,.section-subheading{
+    text-align:center;
+}
+
+#content .text-first{
+    text-indent: 30px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+#content .member-item{
+    margin-top: 48px;
+    float: left;
+    width: 33.333333%;
+
+    text-align: center;
+}
+
+#content .member-name{
+    font-size: 20px;
+    font-weight: bold;;
+}
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+
+    border-radius:10px;
+    border: 3px solid #0c0c6e;
+    background-color: #e69191;
+}
+
+.list-member-section{
+    background-color: #000;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.list-member{
+    margin-top: 32px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.list-item{
+    float: left;
+    width: 33.333333%;
+    padding: 0 8px;
+}
+
+.list-img{
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.list-img:hover{
+    opacity: 0.6;
+}
+
+.list-body{
+    background-color: #fff;
+    padding: 16px;
+}
+.list-heading{
+    font-size: 15px;
+}
+
+.list-skill{
+    color: #757575;
+}
+.list-skill,.list-desc{
+    margin-top: 12px;
+}
+
+.list-desc{
+    line-height: 1.6;
+}
+
+.list-buy-btn{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding:11px 16px;
+
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.list-buy-btn:hover{
+    color: #000;
+    background-color:coral ;
+}
+
+/* the team */
+#content .personal{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.game-section-img img{
+    width: 100%;
+}
+
+
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .social-list{
+    font-size: 24px;
+}
+
+#footer .coppyright a{
+    text-decoration: none;
+}
+
+#footer .social-list a:hover{
+    transition: all 0.5s;
+    color: #ccc;
+}
+
+#footer .coppyright{
+    margin-top: 15px;
+    color: rgb(82, 79, 79);
+}
+
+#footer .coppyright a:hover{
+    opacity: 0.8;
+}
